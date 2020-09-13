@@ -12,7 +12,7 @@ More specifically, this Node JS Middleware function can be used to:
 - Log HTTP Metadata into MongoDB.
 - Group HTTP Metadata into Sessions based on timestamps.
 
-If used in conjuction with the provided Flask API,
+If used in conjuction with the provided [Session Behavior Classifier API](https://github.com/kosletr/SessionBehaviorClassifierAPI),
 it can also be used to:
 
 - Extract Features from HTTP Metadata.
