@@ -1,0 +1,34 @@
+{
+  "name": "seham",
+  "version": "1.0.1",
+  "description": "A simple HTTP Logging middleware function for Express APIs that stores the results in MongoDB and also provides the ability to blacklist malicious/unwanted IPs.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosletr/seham.git"
+  },
+  "keywords": [
+    "seham",
+    "http",
+    "activity",
+    "store",
+    "security",
+    "tracking"
+  ],
+  "author": "Konstantinos Letros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kosletr/seham/issues"
+  },
+  "homepage": "https://github.com/kosletr/seham#readme",
+  "dependencies": {
+    "mime": "^2.4.6",
+    "mongoose": "^5.10.5"
+  }
+}
