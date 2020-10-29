@@ -1,6 +1,6 @@
 {
   "name": "seham",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple HTTP Logging middleware function for Express APIs that stores the results in MongoDB and also provides the ability to blacklist malicious/unwanted IPs.",
   "main": "index.js",
   "directories": {
@@ -28,7 +28,6 @@
   },
   "homepage": "https://github.com/kosletr/seham#readme",
   "dependencies": {
-    "mime": "^2.4.6",
-    "mongoose": "^5.10.5"
+    "mime": "^2.4.6"
   }
 }
